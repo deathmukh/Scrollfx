@@ -42,7 +42,7 @@ export const Overlay = () => {
           <h1 className="font-semibold font-arial text-2xl">
             Hello, I am Deathmukh
           </h1>
-          <p className="text-gray-500">Welcome to my portfolio</p>
+          <p className="text-white">Welcome to my portfolio</p>
           <p className="mt-3">I know:</p>
           <ul className="leading-9">
             <li>How to code</li>
@@ -52,22 +52,22 @@ export const Overlay = () => {
           <p className="animate-bounce  mt-6">↓</p>
         </Section>
         <Section right opacity={opacitySecondSection}>
-          <h1 className="font-semibold font-arial text-2xl">
+        <h1 className="font-semibold font-arial text-2xl text-white">
             Here are my skills
           </h1>
-          <p className="mt-3">
+          <p className="mt-3 text-white">
             <b>Frontend</b>
           </p>
-          <ul className="leading-9">
+          <ul className="leading-9 text-white">
             <li>ReactJS</li>
             <li>AngularJS</li>
             <li>Bootstrap</li>
             <li>Tailwind</li>
           </ul>
-          <p className="mt-3">
+          <p className="mt-3 text-white">
             <b>Backend</b>
           </p>
-          <ul className="leading-9">
+          <ul className="leading-9 text-white">
             <li>NodeJS</li>
             <li>ExpressJS</li>
             <li>NestJS</li>
